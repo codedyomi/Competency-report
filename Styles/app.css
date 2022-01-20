@@ -1,0 +1,103 @@
+/*Global*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Lato", sans-serif;
+}
+h1,
+h2,
+h3 {
+    text-align: center;
+    padding: 10px 0;
+}
+p{
+    line-height: 2;
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+}
+/*utilities*/
+.bold-text {
+    font-weight: 700;
+}
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin: 0 auto 0 auto*/
+
+}
+/*header*/
+header{
+    background-color: rgb(204, 204, 219);
+    height: 250px;
+}
+.header-title h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 8px;
+}
+.header-title h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+.header-title p{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 3px;
+    padding-bottom: 12px;
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+    padding: 16px;
+}
+nav a {
+    color: blanchedalmond;
+    margin-right: 30px;
+    letter-spacing: 3px;
+}
+
+nav a:hover{
+    font-weight: 700;
+    opacity: 0.8;
+}
+/*main*/
+.contactme{
+    text-align: center;
+    padding: 10px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.my-photo{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 50%;
+    border: 8px solid #222222;
+    padding: 3px;
+}
+
+.my-photo:hover{
+    transform: scale(1.1);
+}
+/*Bio*/
+ul li {
+    font-size: 18px;
+    margin: 40px;
+}
+ol li {
+    font-size: 15px;
+    margin: 40px;
+}
